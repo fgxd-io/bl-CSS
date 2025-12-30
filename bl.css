@@ -133,4 +133,5 @@ body{
 .linkbtn:active{
 	transform: translateY(3px);
 	color: blueviolet;
+	transition: 0.1s ease;
 }
