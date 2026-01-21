@@ -16,7 +16,7 @@ body{
 	background: linear-gradient(
         to bottom,
         var(--_4),
-        var(--_), 
+        var(--_),
         var(--_4));
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -150,5 +150,15 @@ body{
 .card:hover{
 	transform: translateY(-3px);
 	box-shadow: 0 0 10px var(--_);
+}
+.card-row{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+.card-col{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 }
