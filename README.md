@@ -1,9 +1,8 @@
 # bl CSS
 A *lightweight*, **blueviolet**, ***small*** CSS framework!
-# 0.10.0 - Release notes(by Dev)
-FORMS IN BL-CSS :D
-Now you can finally make your own form... with bl-css style :D
-```.form``` for form tag, ```.label``` for label tag and ```.in``` for input with a pretty nice placeholder! Now your sites can have **forms**
+
+# 0.10.1 - Release notes(by Dev)
+License Update! I don't have much to include here, you can read the license on [github](https://github.com/fg-xd/bl-CSS/blob/main/LICENSE). It is a GNU LGPLv2.1 license, which basically means if you build a website, you can optionally credit me, but if you are editing the main bl-css file you must credit me and keep it open source.
 # How to Change Accent Color?
 To change from the **original** blueviolet theme you have to open the main```bl.css``` file and you can change the following:
 ```css
