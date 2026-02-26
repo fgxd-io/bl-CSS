@@ -1,8 +1,17 @@
 # bl CSS
 A *lightweight*, **blueviolet**, ***small*** CSS framework!
 
-# 0.10.1 - Release notes(by Dev)
-License Update! I don't have much to include here, you can read the license on [github](https://github.com/fg-xd/bl-CSS/blob/main/LICENSE). It is a GNU LGPLv2.1 license, which basically means if you build a website, you can optionally credit me, but if you are editing the main bl-css file you must credit me and keep it open source.
+# 0.11.1 - Release notes(by Dev)
+FINALLY :D! `.hero` and `.navbar`!! This update is just straight up fire (imo)
+
+## Classes Added
+ `.hero`: A hero section with 100vh :O
+`.navbar`: A floating pill navbar :P
+ `.h1-hero`: An outline stroked text :O
+`.navtitle`: The title on the left of the navbar :D
+`.navlinks`: Links on the right of the navbar :D
+
+## [Preview](https://fg-xd.github.io/bl-CSS)
 # How to Change Accent Color?
 To change from the **original** blueviolet theme you have to open the main```bl.css``` file and you can change the following:
 ```css
