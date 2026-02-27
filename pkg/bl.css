@@ -111,35 +111,54 @@ body{
 .link{
 	display: table;
 	font-family: "Cause";
-	text-decoration: underline;
-	color: white;
-	text-decoration-color: white;
+	text-decoration: none;
+	color: var(--_);
 	transition: 0.1s ease;
+	cursor: default;
 }
 .link:hover{
 	color: var(--_);
 	text-decoration-color: var(--_);
+	text-decoration: underline;
 }
-.linkbtn{
+.btn{
 	display: table;
-	color: white;
 	font-family: "Cause";
-	padding: 5px;
-	border: rgba(128,128,128,0.6) 2px solid;
-	background-color: rgba(255,255,255,0.4);
 	border-radius: 7px;
+	border: 2px solid var(--_);
+	background-color: var(--_);
 	transform: translateY(0px);
+	padding: 5px;
 	transition: 0.4s ease;
 }
-.linkbtn:hover{
-	color: white;
+.btn:hover{
 	transform: translateY(2px);
-	border: var(--_6) 2px solid;
 	background-color: transparent;
+	border: 2px solid var(--_);
 }
-.linkbtn:active{
+.btn:active{
 	transform: translateY(3px);
-	color: var(--_);
+	background-color: transparent;
+	border: 2px solid var(--_);
+	transition: 0.1s ease;
+}
+.btn2{
+	display: table;
+	font-family: "Cause";
+	border-radius: 7px;
+	border: 2px solid var(--_);
+	background-color: transparent;
+	transform: translateY(0px);
+	padding: 5px;
+	transition: 0.4s ease;
+}
+.btn2:hover{
+	transform: translateY(2px);
+	background-color: var(--_);
+}
+.btn2:active{
+	transform: translateY(3px);
+	background-color: var(--_);
 	transition: 0.1s ease;
 }
 .card{

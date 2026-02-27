@@ -1,5 +1,11 @@
 # bl-css Changelog
-## [latest] v0.11.0
+## [Latest] v0.11.1
+- Link&Button update
+- Added `.btn` and `.btn2`
+- Improved `.link`
+- Removed `.linkbtn` (alternatives: `.btn`, `.btn2`)
+- Better README.md
+## v0.11.0
 - Added `.navbar` and `.hero`
 ## v0.10.1
 - Added `LGPLv2.1` License
