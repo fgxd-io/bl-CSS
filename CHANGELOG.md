@@ -1,5 +1,8 @@
 # bl-css Changelog
-## [Latest] v0.11.1
+## v0.11.2
+- THE CATS HAVE INVADED (very good)
+- Ok really, I updated the CLI a little bit
+## v0.11.1
 - Link&Button update
 - Added `.btn` and `.btn2`
 - Improved `.link`
